@@ -1,3 +1,18 @@
+GB Comments:
+Prob1: 100%
+Prob2:
+P1:100
+P2: 50 Within the for loop, the code doesn’t find the longest possible ORF and doesn’t check to be sure the sequence is in-frame of the start codon. 
+P3:100
+P4:90 Code is fine except for the issues propagated from part 2.  However, the graph does not labels to explain the X and Y axis.  
+P5:100 
+Prob3
+P1: 50 variable line1 is exchanged from a character to a double in the while loop. Within the loop the, the script breaks because the function strsplit is trying to pass a variable that is a double when it needs a string. 
+P2: 75 your variable plate has a non-scalar within the first index of the cell array. This causes cellfun to break when you try to pass the plate variable into it. 
+P3: 90 no labels on graphs
+Overall: 84
+
+
 % Walter Frank Lenoir
 
 % Homework 1. Due before class on 9/5/17
