@@ -7,10 +7,11 @@ P3:100
 P4:90 Code is fine except for the issues propagated from part 2.  However, the graph does not labels to explain the X and Y axis.  
 P5:100 
 Prob3
-P1: 50 variable line1 is exchanged from a character to a double in the while loop. Within the loop the, the script breaks because the function strsplit is trying to pass a variable that is a double when it needs a string. 
-P2: 75 your variable plate has a non-scalar within the first index of the cell array. This causes cellfun to break when you try to pass the plate variable into it. 
+P1: 100
+P2: 100
 P3: 90 no labels on graphs
-Overall: 84
+Overall: 92
+
 
 
 % Walter Frank Lenoir
